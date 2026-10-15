@@ -95,6 +95,13 @@ Review each scanner's threat model and test corpus before using its score as a g
 - [SkillGuard](https://github.com/RudrenduPaul/skillguard) - CLI, library, MCP
   server, and GitHub Action backed by shared rule packs; includes cross-skill
   privilege-chain analysis. `Apache-2.0`.
+- [SkillPreflight](https://github.com/agent-contracts/skill-preflight) - Early-stage
+  static pre-install scanner for `SKILL.md` bundles used by Claude Code, Codex,
+  Cursor, and Gemini CLI; source findings, JSON/SARIF output, and score, severity,
+  and instruction-token CLI/CI gates. Does not execute target scripts or enforce
+  runtime actions. Local scans do not upload target content; GitHub URL scans
+  retrieve repository files. Heuristic coverage is limited; findings require
+  manual review. `MIT`.
 - [SkillScan](https://github.com/NMitchem/SkillScan) - Combines static analysis,
   LLM behavioral prediction, and optional Docker Sandbox execution with honeypot
   canaries. `MIT`.
