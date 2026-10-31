@@ -83,6 +83,11 @@ Review each scanner's threat model and test corpus before using its score as a g
 - [Cisco AI Defense Skill Scanner](https://github.com/cisco-ai-defense/skill-scanner)
   - Best-effort scanner for prompt injection, data exfiltration, and malicious
     code patterns, with standard and lenient skill-layout support. `Apache-2.0`.
+- [HOL Guard (`plugin-scanner`)](https://github.com/hashgraph-online/hol-guard)
+  - Open-source CLI for scanning AI agent plugins, skills and MCP configurations.
+    Checks manifests, secrets, approval defaults and dependency files; supports
+    Codex, Claude Code, Gemini CLI, Kimi Code and OpenCode package formats.
+    Enforcement coverage depends on the separate Guard integration. `Apache-2.0`.
 - [NVIDIA SkillSpector](https://github.com/NVIDIA/SkillSpector) - Rules across
   instruction, code, supply-chain, tool, and MCP risks; includes AST analysis,
   taint tracking, YARA signatures, and optional semantic analysis. `Apache-2.0`.
